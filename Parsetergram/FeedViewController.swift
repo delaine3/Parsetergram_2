@@ -52,6 +52,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         return posts.count
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt IndexPath : IndexPath) -> UITableViewCell {
         
         let post = posts[IndexPath.section]
